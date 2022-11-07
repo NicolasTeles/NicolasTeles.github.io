@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sociologia Urbana</title>
+        <link rel="stylesheet" href="estilo.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="cabecalho">
+            <h1 class="titulo" style="padding-left: 30px;">Sociologia Urbana-Escola de Chicago</h1>
+            <p class="grupo">Grupo: Nicolas Teles, Gabriel Bernardini, Nuno Zadra, Felipe Cardoso, Tales Henrique</p>
+        </div>
+        <div class="container">
+
+            <div class="box">
+                <div class="img-container">
+                    <img src="imgs/Banco.jpeg">
+                </div>
+                <p class="texto" id="banco"> Nessa foto vemos alguns bancos ao ar livre próximos a algumas árvores e algumas decorações
+                sobre eles. Esses bancos, posicionados próximos à academia BodyFit na Avenida Mariza, podem servir como ponto de descanso
+                a quaisquer pessoas que estiverem dando uma corrida por ela, ou simplesmente um local para se sentar e bater um papo com
+                um amigo. Tal organização bem cuidada está de acordo com a Teoria de Park sobre os círculos concêntricos, já que ela está 
+                numa área mais financeiramente beneficiada da cidade ela tende a receber mais atenção em sua manutenção por parte do Governo
+                </p>
+                <button onclick="mostraDesc('banco', 'botaoBanco')" id="botaoBanco">Mostrar mais</button>
+            </div>
+    
+            <div class="box">
+                <div class="img-container">
+                    <img src="imgs/BodyFit.jpeg">
+                </div>
+                <p class="texto" id="bodyfit">Já nessa foto vemos a previamente mencionada academia BodyFit. Localidade na qual os
+                habitantes da área próxima vão para malhar e se exercitar. Por estar posicionada numa área de maior renda média da
+                população - próxima ao Pioneiros e ao Inconfidentes - , sua mensalidade tende a ser maior que de outras academias, segundo
+                teoria de Park.
+                </p>
+                <button onclick="mostraDesc('bodyfit', 'botaoBodyfit')" id="botaoBodyfit">Mostrar mais</button>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="box">
+                <div class="img-container">
+                    <img src="imgs/Igreja.jpeg">
+                </div>
+                <p class="texto" id="igreja">Igreja Sagrada Família, que foi recentemente reformada, local no qual pessoas católicas
+                da área se reúnem para exercitar sua fé, indo a missas, participando de encontros e dos 7 sacramentos.
+                </p>
+                <button onclick="mostraDesc('igreja', 'botaoIgreja')" id="botaoIgreja">Mostrar mais</button>
+            </div>
+    
+            <div class="box">
+                <div class="img-container">
+                    <img src="imgs/Inconf.jpeg">
+                </div>
+                <p class="texto" id="inconf">Nessa foto vemos uma praça localizada no Bairro Inconfidentes, na qual temos bancos, 
+                mesas, uma quadra, pista de skate e até mesmo brinquedos para crianças que podem ser vistos ao fundo, que indicam
+                a maior atenção por parte da prefeitura com essa praça, devido à seu posicionamento numa área mais financeiramente
+                beneficiada, como apontado por Park.
+                </p>
+                <button onclick="mostraDesc('inconf', 'botaoInconf')" id="botaoInconf">Mostrar mais</button>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="box">
+                <div class="img-container">
+                    <img src="imgs/CentroComercial.jpeg">
+                </div>
+                <p class="texto" id="centroComercial">Novo prédio construído para ser um centro comercial, no bairro Pioneiros. Tal
+                prédio possui estabelecimentos alimentícios que, como apontado por Park, têm uma faixa de preços em geral mais alta
+                que de outras partes da cidade, devido à localização no centro - Não o bairro, mas o centro concêntrico - da cidade.
+                </p>
+                <button onclick="mostraDesc('centroComercial', 'botaoCentroComercial')" id="botaoCentroComercial">Mostrar mais</button>
+            </div>
+    
+            <div class="box">
+                <div class="img-container">
+                    <img src="imgs/Skate.jpeg">
+                </div>
+                <p class="texto" id="skate">Já essa pista de Skate, posicionada no Bairro Pioneiros, apesar de ainda localizada numa 
+                área financeiramente bem da cidade, está em uma menos beneficiada que a pista anteriormente vista, a do Inconfidentes,
+                já deixando visíveis as diferenças - Possuindo inclusive corrimãos quebrados - de cuidado por parte da prefeitura entre 
+                as duas, como analisado por Park.
+                </p>
+                <button onclick="mostraDesc('skate', 'botaoSkate')" id="botaoSkate">Mostrar mais</button>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="box">
+                <div class="img-container">
+                    <img src="imgs/Batista.jpeg">
+                </div>
+                <p class="texto" id="batista"> Vemos, nessa foto, o colégio batista, escola particular na qual as crianças e jovens da 
+                área - Pioneiros e Inconfidentes - estudam do maternal até o final do ensino médio podem ser matriculados e, novamente 
+                segundo Park, sua mensalidade tem um valor bem alto devido à sua localidade.
+                </p>
+                <button onclick="mostraDesc('batista', 'botaoBatista')" id="botaoBatista">Mostrar mais</button>
+            </div>
+            <div class="box">
+                <div class="img-container">
+                    <img src="imgs/CasaPica.jpeg">
+                </div>
+                <p class="texto" id="casaPica"> Essa fotografia é de uma casa, localizada no Pioneiros, próxima à praça com a pista
+                de skate e os brinquedos, casa essa que é de um tamanho absurdo, demonstrando a média da capacidade financeira de
+                quem reside na área, por se posicionarem próximo ao centro - mais uma vez não o centro bairro, porém o centro
+                concêntrico - da cidade, como apontou Park.
+                </p>
+                <button onclick="mostraDesc('casaPica', 'botaoCasaPica')" id="botaoCasaPica">Mostrar mais</button>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="finalBox">
+                <div class="img-container">
+                    <img src="imgs/Acidente.jpeg">
+                </div>
+                <p class="finalTexto" id="acidente">Já nessa foto podemos ver o contraste de atenção por parte da prefeitura com
+                diferentes partes da cidade. Enquanto as áreas de maior renda e nos círculos concêntricos centrais possuem boas praças
+                e locais para lazer, as áreas nos círculos concêntricos mais periféricos têm dificuldade de conseguirem sequer o devido 
+                conserto de suas ruas, sendo que a obra necessária está parada já faz um longo tempo, com a população da área infelizmente
+                mantendo seus problemas com os encanamentos danificados e rua danificada.
+                </p>
+                <button onclick="mostraDesc('acidente', 'botaoAcidente')" id="botaoAcidente">Mostrar mais</button>
+            </div>
+            
+        </div>
+    </body>
+</html>
